@@ -5,56 +5,52 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Google</title>
+    <title>Clone Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="images/favicon.png">
 </head>
 <body>
     <header>
         <nav>
-            <ul class="nav-right-section">
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Imágenes</a></li>
-                <li class="menu-icon"><a href=""></a></li>
-                <li class="perfil-photo"><a href=""></a></li>
-            </ul>
-        </nav>
+                <a href="">Gmail</a>
+            <a href="">Imágenes</a>
+            <img src="./images/menu.png" alt="">
+            <img src="./images/unnamed.png" alt="">
+
     </header>
     <main>
         <section class="main-logo">
-            <img src="images/google.png" alt="">
+            <img id="logo" src="images/google.png" alt="">
         </section>
         <section class="main-input">
             <div class="main-input-container">
                 <span class="search-icon">
                 
                 </span>
-                <input type="text">
+                <input id="input-search" type="text">
                 <a class="micro-icon" href=""></a>
             </div>
         </section>
         <section class="main-buttons">
             <div>
-                <button>Buscar con Google</button>
+                <a id="search" class="btn-search">Buscar con Google</a>
             </div>
             <div>
-                <button>Me siento con suerte</button>
+                <a id="lucky" class="btn-search">Me siento con suerte</a>
             </div>
         </section>
     </main>
     <footer>
-        <ul class="footer-left">
-            <li><a href="">Sobre Google</a></li>
-            <li><a href="">Publicidad</a></li>
-            <li><a href="">Negocios</a></li>
-            <li><a href="">Cómo0 funciona la Búsqueda</a></li>
-        </ul>
-        <ul class="footer-right">
-            <li><a href="">Privacidad</a></li>
-            <li><a href="">Condiciones</a></li>
-            <li><a href="">Preferencias</a></li>
-        </ul>
-
+        <a class="footer-link" href="">About</a>
+        <a class="footer-link" href="">Advertising</a>
+        <a class="footer-link" href="">Business</a>
+        <a class="footer-link" href="">How Search works</a>
+        <a class="footer-link" href="">Privacy</a>
+        <a class="footer-link" href="">Terms</a>
+        <a class="footer-link" href="">Settings</a>
     </footer>
 </body>
 </html>
